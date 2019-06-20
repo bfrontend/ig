@@ -1,6 +1,6 @@
 {
   "name": "icons-generator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A command-line tool for converting SVG icons to font icons in the current folder",
   "preferGlobal": true,
   "bin": {
@@ -14,14 +14,15 @@
   },
   "keywords": [
     "terminal",
-    "weather",
-    "rain"
+    "icons",
+    "svg",
+    "iconFont"
   ],
   "author": "https://github.com/webxmsj",
   "bugs": {
-    "url": "https://github.com/webxmsj/project-cli/issues"
+    "url": "https://github.com/webxmsj/ig/issues"
   },
-  "homepage": "https://github.com/webxmsj/project-cli#readme",
+  "homepage": "https://github.com/webxmsj/ig#readme",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.20.0",
