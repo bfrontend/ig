@@ -1,5 +1,5 @@
 {
-  "name": "ig",
+  "name": "icons-generator",
   "version": "0.0.1",
   "description": "A command-line tool for converting SVG icons to font icons in the current folder",
   "preferGlobal": true,
