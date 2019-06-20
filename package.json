@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/webxmsj/project-cli#readme",
   "license": "MIT",
-  "dependencies": git@github.com:webxmsj/ig.git{
+  "dependencies": {
     "commander": "^2.20.0",
     "file-type": "^12.0.0",
     "webfonts-generator": "^0.4.0"
