@@ -17,8 +17,8 @@ npm i icons-generator -g
 ```sh
 $ ig
 // show use help
-ig build
-generator css/ttf/html
+$ ig build
+// generator css/ttf/html
 ```
 
 ## Help
