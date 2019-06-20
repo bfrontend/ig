@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+const program = require('commander');
+const iconGen = require('../utils/core')
+
+program
+  .version(require('../package').version,'-v --version')
+  .usage('<command> [options]');
+
+program
+  .command('build [env]')
+  .description('run setup commands for all envs')
+  .option('-p, --path', 'change svg path')
+  .option('-cn, --cssname', 'custom icon font class')
+  .option('-cp, --csspath', 'change genertored css file path')
+  .action(function(env, options) {
+    iconGen()
+  });
+
+
+program.parse(process.argv);
+if (program.args.length === 0) {
+  program.help();
+}
